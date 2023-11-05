@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+    margin: 5;
+    padding: 5;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background: linear-gradient(45deg, black, rgb(30, 30, 141));
+}
+
+#title {
+    color: aliceblue;
+    text-align: center;
+}
+
+.title-vk {
+    color: aliceblue;
+}
+
+.para {
+    color: blanchedalmond;
+    font-style: initial;
+    font-variant: small-caps;
+}
+
+#img {
+    text-align: center;
+    border: 10px;
+    box-shadow: 0 .5rem 1rem rgba($black, .36);
+}
